@@ -121,5 +121,6 @@ h2 {
 }
 
 .end {
-    text-align: justify
+    text-align: justify;
+    width:70%;
 }
