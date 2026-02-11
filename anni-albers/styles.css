@@ -18,8 +18,12 @@ div {
 p {
     line-height:1.8rem;
 }
-.two, .five {
+.two, .five, .seven {
     text-align:right;
+}
+
+.four, .eight{
+    text-align:justify;
 }
 
 .quote {
@@ -44,8 +48,17 @@ p {
 .four {
     width:70%;
     margin: 0 auto;
-    text-align: justify;
 }
 .five {
     margin-left:30%
+}
+.five >.quote {
+    margin-right: 40%
+}
+
+.six {
+    margin-right:40%
+}
+.seven {
+    margin-left:20%
 }
