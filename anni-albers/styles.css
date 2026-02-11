@@ -18,7 +18,7 @@ div {
 p {
     line-height:1.8rem;
 }
-.two, .five, .seven {
+.two, .five, .seven, .ten {
     text-align:right;
 }
 
@@ -61,4 +61,29 @@ p {
 }
 .seven {
     margin-left:20%
+}
+
+.seven > .quote {
+    margin-right:20%
+}
+
+.eight {
+    width:80%;
+    margin:0 auto; 
+}
+
+.nine {
+    margin-right:40%
+}
+
+.nine > .quote {
+    margin-left:40%;
+}
+
+.ten {
+    margin-left: 40%
+}
+
+.eleven {
+    margin-right:30%
 }
