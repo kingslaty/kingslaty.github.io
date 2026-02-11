@@ -18,6 +18,9 @@ div {
 p {
     line-height:1.8rem;
 }
+p:first-letter {
+    font-size:1.7rem;
+}
 .two, .five, .seven, .ten {
     text-align:right;
 }
@@ -86,4 +89,7 @@ p {
 
 .eleven {
     margin-right:30%
+}
+.four, .eight {
+    margin-top:7%;
 }
