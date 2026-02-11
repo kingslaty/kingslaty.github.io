@@ -22,8 +22,12 @@
             padding: 2px;
         }
 
-        .b:first-child {
+        .b {
             font-weight: bold;
+        }
+
+        .no {
+            font-weight:normal;
         }
 
         code {
@@ -60,24 +64,24 @@
         <h3>Examples</h3>
         <ul>
             <li class="b">Pixels <code>{ px }</code>
-                <ul>
+                <ul class="no">
                     <li>Pixels are one of the most common units developers use, and one of the
                         smallest. A single pixel consists of only 1/96th of an inch. </li>
                 </ul>
             </li>
             <li class="b">Points <code>{ pt }</code>
-                <ul>
+                <ul class="no">
                     <li>Points are slightly larger than pixels, consisting of 1/72nd of an inch.</li>
                 </ul>
             </li>
             <li class="b">Inch <code>{ in }</code>
-                <ul>
+                <ul class="no">
                     <li>An inch is the unit of measurement that the common man is most familar with.
                         Its length consists of 10/10ths of an inch.</li>
                 </ul>
             </li>
             <li class="b">Picas <code>{ pc }</code>
-                <ul>
+                <ul class="no">
                     <li>Picas are a unit of measurement that I had never heard of before now, but
                         they are 1/6th of an ich long. The more you know!</li>
                 </ul>
@@ -92,14 +96,14 @@
         <h3>Examples</h3>
         <ul>
             <li class="b">Viewport Width <code>{ vw }</code>
-                <ul>
+                <ul class="no">
                     <li>Viewport width scales the width of the element to a given percent of the size
                         of the viewport. <code>{ 1vw } </code> would mean the element scales to 1% of the
                         total length of the page. </li>
                 </ul>
             </li>
             <li class="b">Viewport Height <code>{ vh }</code>
-                <ul>
+                <ul class="no">
                     <li>Viewport height is exactly like viewport width, but scaling for height instead.
                         <code>{ 1vh }</code> would scale an element to 1% of the height of the page.
                     </li>
