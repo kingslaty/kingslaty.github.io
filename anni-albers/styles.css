@@ -1,11 +1,49 @@
-    .grid {
+div {
+    margin-top:10%
+}
+
+.grid {
         width: 90%;
         margin: 0 auto;
     }
 
     .title {
         text-align: center;
+        margin-top:unset;
     }
     h1 {
     font-size:2.5rem;
+    margin-top:unset
     }
+p {
+    line-height:1.8rem;
+    text-align:justify;
+}
+.quote {
+    font-size:1.5rem;
+    font-style:italic;
+}
+.one {
+    margin-right:30%;
+    
+}
+.two {
+    margin-left:40%;
+    
+}
+.two > .quote {
+    margin-left:20%
+}
+.three {
+    margin-right:40%
+}
+
+.four {
+    width:70%;
+    margin: 0 auto;
+    margin-top:10%
+    
+}
+.five {
+    margin-left:30%
+}
