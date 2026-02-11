@@ -118,12 +118,33 @@ h3 {
 
 h2 {
     text-align: center;
+    margin: 0 auto;
 }
 
 .end {
     text-align: justify;
     width:70%;
+    margin: 0 auto;
 }
 
 /* ********************************************* */
 /* layout 2 electric boogaloo */
+
+#layout2 main {
+    display:grid;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(11, auto);
+    grid-template-areas:
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .'
+
+}
