@@ -12,85 +12,94 @@
     <link rel="stylesheet" href="styles.css" media="all">
     <style>
         * {
-  box-sizing:border-box;
-}
+            box-sizing: border-box;
+        }
 
-code {
-  background-color:blue;
-  color:white;
-  padding:2px;
-}
-li:nth-of-child {
-  font-weight:bold;
-}
-h1 h3 h2 {
-  display:inline;
-  border: 1px solid;
-  padding:4px;
-}
+        code {
+            background-color: blue;
+            color: white;
+            padding: 2px;
+        }
+
+        .b {
+            font-weight: bold;
+        }
+
+        h1, h3, h2 {
+            display: inline;
+            border: 1px solid;
+            padding: 4px;
+        }
     </style>
 
 </head>
 
 <body>
-    <h1>Code Log 2: CSS Measuring Units</h1>
-    <p>When working with CSS, we use units to measure how big we want certain elements to be.
-        Without these, CSS would not know what it's supposed to mean, so they're pretty important.
-        Theres a lot of units we can use, divded into two catagories; absolute, and relative.</p>
-    <p><b><i>But what is the difference between these catagories??</i></b></p>
-    <p>Good question, conveinent voice of the audience; that's the
-        <code>{ pt }</code> of this code log.
-    </p>
+    <div class="one">
+        <h1>Code Log 2: CSS Measuring Units</h1>
+        <p>When working with CSS, we use units to measure how big we want certain elements to be.
+            Without these, CSS would not know what it's supposed to mean, so they're pretty important.
+            Theres a lot of units we can use, divded into two catagories; absolute, and relative.</p>
+        <p><b><i>But what is the difference between these catagories??</i></b></p>
+        <p>Good question, conveinent voice of the audience; that's the
+            <code>{ pt }</code> of this code log.
+        </p>
+    </div>
 
-    <h2>Absolute Units</h2>
-    <p>An absolute unit represents a unit that will remain consistent no matter the size of your
-        screen or any other factors. It's a conventional unit of measurement.</p>
-    <h3>Examples</h3>
-    <ul>
-        <li>Pixels <code>{ px }</code>
-            <ul>
-                <li>Pixels are one of the most common units developers use, and one of the
-                    smallest. A single pixel consists of only 1/96th of an inch. </li>
-            </ul>
-        </li>
-        <li>Points <code>{ pt }</code>
-            <ul>
-                <li>Points are slightly larger than pixels, consisting of 1/72nd of an inch.</li>
-            </ul>
-        </li>
-        <li>Inch <code>{ in }</code>
-            <ul>
-                <li>An inch is the unit of measurement that the common man is most familar with.
-                    Its length consists of 10/10ths of an inch.</li>
-            </ul>
-        </li>
-        <li>Picas <code>{ pc }</code>
-            <ul>
-                <li>Picas are a unit of measurement that I had never heard of before now, but
-                    they are 1/6th of an ich long. The more you know!</li>
-            </ul>
-        </li>
-    </ul>
-    <h2>Relative Units</h2>
-    <p>Relative units are used to scale an element's size relative to the page it is on. It scales
-        to the width of the screen you are using, so it's very useful for mobile-destop compatability.</p>
-    <h3>Examples</h3>
-    <ul>
-        <li>Viewport Width <code>{ vw }</code>
-            <ul>
-                <li>Viewport width scales the width of the element to a given percent of the size
-                    of the viewport. <code>{ 1vw } </code> would mean the element scales to 1% of the
-                    total length of the page. </li>
-            </ul>
-        </li>
-        <li>Viewport Height <code>{ vh }</code>
-            <ul>
-                <li>Viewport height is exactly like viewport width, but scaling for height instead.
-                    <code>{ 1vh }</code> would scale an element to 1% of the height of the page.
-                </li>
-            </ul>
-        </li>
-    </ul>
+    <div class="two">
+        <h2>Absolute Units</h2>
+        <p>An absolute unit represents a unit that will remain consistent no matter the size of your
+            screen or any other factors. It's a conventional unit of measurement.</p>
+        <h3>Examples</h3>
+        <ul>
+            <li class="b">Pixels <code>{ px }</code>
+                <ul>
+                    <li>Pixels are one of the most common units developers use, and one of the
+                        smallest. A single pixel consists of only 1/96th of an inch. </li>
+                </ul>
+            </li>
+            <li class="b">Points <code>{ pt }</code>
+                <ul>
+                    <li>Points are slightly larger than pixels, consisting of 1/72nd of an inch.</li>
+                </ul>
+            </li>
+            <li class="b">Inch <code>{ in }</code>
+                <ul>
+                    <li>An inch is the unit of measurement that the common man is most familar with.
+                        Its length consists of 10/10ths of an inch.</li>
+                </ul>
+            </li>
+            <li class="b">Picas <code>{ pc }</code>
+                <ul>
+                    <li>Picas are a unit of measurement that I had never heard of before now, but
+                        they are 1/6th of an ich long. The more you know!</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="three">
+        <h2>Relative Units</h2>
+        <p>Relative units are used to scale an element's size relative to the page it is on. It scales
+            to the width of the screen you are using, so it's very useful for mobile-destop compatability.</p>
+        <h3>Examples</h3>
+        <ul>
+            <li class="b">Viewport Width <code>{ vw }</code>
+                <ul>
+                    <li>Viewport width scales the width of the element to a given percent of the size
+                        of the viewport. <code>{ 1vw } </code> would mean the element scales to 1% of the
+                        total length of the page. </li>
+                </ul>
+            </li>
+            <li class="b">Viewport Height <code>{ vh }</code>
+                <ul>
+                    <li>Viewport height is exactly like viewport width, but scaling for height instead.
+                        <code>{ 1vh }</code> would scale an element to 1% of the height of the page.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 </body>
 
 </html>
