@@ -1,8 +1,8 @@
-div {
+#layout1 div {
     margin-top: 5%
 }
 
-.grid {
+.long {
     width: 90%;
     margin: 0 auto;
 }
@@ -124,3 +124,6 @@ h2 {
     text-align: justify;
     width:70%;
 }
+
+/* ********************************************* */
+/* layout 2 electric boogaloo */
