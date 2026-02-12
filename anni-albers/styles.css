@@ -151,6 +151,7 @@ h2 {
 
 #layout2 .title {
     grid-area: t;
+    margin-top:5%;
 }
 
 #layout2 .one {
@@ -199,4 +200,5 @@ h2 {
 
 #layout2 .end {
     grid-area: e;
+    margin-top:5%;
 }
