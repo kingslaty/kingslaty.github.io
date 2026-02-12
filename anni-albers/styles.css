@@ -1,4 +1,4 @@
-#layout1 div {
+div {
     margin-top: 5%
 }
 
@@ -144,7 +144,7 @@ h2 {
         '. p7 p7 p7 p7 .'
         'p8 p8 p8 . . .'
         '. p9 p9 p9 p9 .'
-        'p10 p10 p10 p11 p11 p11'
+        'p10 p10 . p11 p11 p11'
         'e e e e e e';
 
 
