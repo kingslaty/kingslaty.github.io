@@ -135,7 +135,7 @@ h2 {
     grid-template-columns: repeat(6, auto);
     grid-template-rows: repeat(11, auto);
     grid-template-areas:
-    '. . . . . .'
+    't t t t t t'
     '. . . . . .'
     '. . . . . .'
     '. . . . . .'
@@ -147,4 +147,43 @@ h2 {
     '. . . . . .'
     '. . . . . .'
 
+}
+#layout2 .title {
+    grid-area:t;
+}
+#layout2 .one {
+    grid-area:p1;
+}
+#layout2 .two {
+    grid-area:p2;
+}
+#layout2 .three {
+    grid-area:p3;
+}
+#layout2 .four {
+    grid-area:p4;
+}
+#layout2 .five {
+    grid-area:p5;
+}
+#layout2 .six {
+    grid-area:p6;
+}
+#layout2 .seven {
+    grid-area:p7;
+}
+#layout2 .eight {
+    grid-area:p8;
+}
+#layout2 .nine {
+    grid-area:p9;
+}
+#layout2 .ten {
+    grid-area:p10;
+}
+#layout2 .eleven {
+    grid-area:p11;
+}
+#layout2 .end {
+    grid-area:e;
 }
