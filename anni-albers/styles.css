@@ -136,16 +136,16 @@ h2 {
     grid-template-rows: repeat(11, auto);
     grid-template-areas:
     't t t t t t'
-    '. . . . . .'
-    '. . . . . .'
-    '. . . . . .'
-    '. . . . . .'
-    '. . . . . .'
-    '. . . . . .'
-    '. . . . . .'
-    '. . . . . .'
-    '. . . . . .'
-    '. . . . . .'
+    'p1 p1 p1 . . .'
+    '. p2 p2 p2 p2 .'
+    'p3 p3 p3 p4 p4 p4'
+    '. p5 p5 p5 p5 .'
+    'p6 p6 p6 . . .'
+    '. p7 p7 p7 p7 .'
+    'p8 p8 p8 . . .'
+    '. p9 p9 p9 p9 .'
+    'p10 p10 p10 p11 p11 p11'
+    'e e e e e e'
 
 }
 #layout2 .title {
