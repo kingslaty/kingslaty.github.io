@@ -7,12 +7,16 @@ h1 {
     text-align: center;
     background: pink;
     padding: 1.2rem;
+    text-transform:capitalize;
 }
 
 p {
     text-align: justify;
     border-bottom: 1px solid indianred;
     padding-bottom: 1.1rem;
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+
 }
 
 p:first-letter {
@@ -30,19 +34,23 @@ p:first-letter {
 }
 
 @media (min-width: 768px) {
-    * {
-        text-align: left;
-        font-size: 2rem;
-    }
 
     h1 {
-        width: 50%;
+        text-align: left;
+        font-size: 3.5rem;
+        width: 70%;
         background: pink;
+        text-transform:capitalize;
+
     }
 
     p:first-letter {
         font-size: 2.3rem
     }
+p {
+    text-align: left;
+        font-size: 2rem;
+}
 
     img {
         width: 50%;
@@ -51,11 +59,12 @@ p:first-letter {
 
     #two p {
         width: 50%;
+    display:inline-block;
     }
 
     #two img {
-        position: relative;
-        left: 50%;
-        bottom: 50%
+        bottom:25%;
+        width:35%;
+        
     }
 }
