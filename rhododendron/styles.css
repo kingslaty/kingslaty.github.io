@@ -1,6 +1,6 @@
 img {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 h1 {
@@ -38,7 +38,6 @@ p:first-letter {
         text-align: left;
         font-size: 3.5rem;
         width: 70%;
-        background: pink;
     }
 
     p:first-letter {
@@ -53,7 +52,6 @@ p:first-letter {
 
     img {
         width: 50%;
-        height: 100%;
     }
 
     #two p {
@@ -63,16 +61,27 @@ p:first-letter {
 
     #two img {
         bottom: 25%;
-        width: 35%;
+        width: 45%;
     }
 }
 
 @media (min-width: 1024px) {
     h1 {
         font-size: 2rem;
-        width:50%;
+        width: 50%;
     }
+
     p {
-        font-size:1.2rem;
+        font-size: 1.2rem;
+    }
+
+    #two p {
+        width: 50%;
+        margin-top: 0;
+    }
+
+    #two img {
+        width: 20%;
+        margin-left: 10%;
     }
 }
