@@ -10,8 +10,9 @@ h1 {
 }
 
 p {
-    text-align: justify
-    border: 2px solid;
+    text-align: justify;
+    border-bottom: 1px solid indianred;
+    padding-bottom: 1.1rem;
 }
 
 p:first-letter {
@@ -20,6 +21,8 @@ p:first-letter {
 
 #flower p {
     margin: 0.2rem;
+    border: none;
+    padding: 0;
 }
 
 #flower h1 {
