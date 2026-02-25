@@ -28,3 +28,17 @@ p:first-letter {
 #flower h1 {
     margin-bottom: 0;
 }
+
+@media (min-width: 768px){
+    h1 {
+    text-align: left;
+    width: 50%;
+    background: pink;
+
+}
+  img {
+    width: 50%;
+    height: 100%;
+    margin-left:50
+  }
+}
