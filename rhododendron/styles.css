@@ -66,3 +66,13 @@ p:first-letter {
         width: 35%;
     }
 }
+
+@media (min-width: 1240px) {
+    h1 {
+        font-size: 2rem;
+        width:50%;
+    }
+    p {
+        font-size:1.2rem;
+    }
+}
