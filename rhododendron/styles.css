@@ -1,4 +1,9 @@
 #flower {
-    width:auto;
-    height:auto;
+    width:100%;
+    height:100%;
+}
+h1 {
+    text-align:center;
+    background:pink;
+    padding:1.2rem;
 }
