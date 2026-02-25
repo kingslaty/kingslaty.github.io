@@ -7,7 +7,6 @@ h1 {
     text-align: center;
     background: pink;
     padding: 1.2rem;
-    text-transform: capitalize;
 }
 
 p {
@@ -40,8 +39,6 @@ p:first-letter {
         font-size: 3.5rem;
         width: 70%;
         background: pink;
-        text-transform: capitalize;
-
     }
 
     p:first-letter {
@@ -67,6 +64,5 @@ p:first-letter {
     #two img {
         bottom: 25%;
         width: 35%;
-
     }
 }
