@@ -38,7 +38,7 @@ p:first-letter {
         grid-template-areas:
             ' main main'
             'one two'
-            'three map';
+            'three three';
     }
 
     img {
@@ -73,10 +73,6 @@ p:first-letter {
         grid-area: three;
     }
 
-    #map {
-        grid-area: map;
-    }
-
     #one,
     #two {
         width: 50vw;
@@ -84,7 +80,15 @@ p:first-letter {
 
     #two {
         grid-area: two;
+    }
+
+    #two p {
         text-align: right;
+        margin-left: 3vw
+    }
+
+    #one p {
+        margin-right:3vw;
     }
 
     #one {
