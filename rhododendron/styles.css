@@ -47,11 +47,13 @@ p:first-letter {
 
     h1 {
         font-size: 2rem;
+        margin:0;
     }
 
     p {
         text-align: left;
         font-size: 1.5rem;
+        margin:1rem;
     }
 
     p:first-letter {
