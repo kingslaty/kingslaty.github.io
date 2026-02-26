@@ -32,56 +32,39 @@ p:first-letter {
     margin-bottom: 0;
 }
 
-@media (min-width: 768px) {
-
-    h1 {
-        text-align: left;
-        font-size: 3.5rem;
-        width: 70%;
+@media (min-width: 918px) {
+    main {
+        display:grid;
+        grid-template-areas: 
+        ' main main'
+          'one three'
+          'two two';
     }
-
-    p:first-letter {
-        font-size: 2.3rem;
-    }
-
-    p {
-        text-align: left;
-        font-size: 2rem;
-        line-height: 2;
-    }
-
-    img {
+     img {
         width: 50%;
     }
-
-    #two p {
-        width: 50%;
-        display: inline-block;
-    }
-
-    #two img {
-        bottom: 25%;
-        width: 45%;
-    }
-}
-
-@media (min-width: 1024px) {
     h1 {
         font-size: 2rem;
     }
 
-    p {
-        font-size: 1.2rem;
+    #flower h1, #two h1 #flower p {
+        text-align:center;
+        width:;
+        margin:0
     }
 
-    #two p {
-        width: 50%;
-        margin-top: 0;
+    #flower {
+        grid-area:main;
+        text-align:center;
+    }
+
+    #two {
+        grid-area:two;
     }
 
     #two img {
         width: 20%;
-        margin-left: 10%;
+        margin-left:10vw;
     }
 
     #one,
@@ -89,5 +72,11 @@ p:first-letter {
         width: 50vw;
     }
 
-    #three {}
+    #three {
+        grid-area:three;
+        text-align:right;
+    }
+    #one {
+        grid-area:one;
+    }
 }
