@@ -19,7 +19,7 @@ code {
     color: blue;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 918px) {
     main {
         display: grid;
         grid-template-areas:
