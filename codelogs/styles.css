@@ -19,33 +19,47 @@ code {
     color: blue;
 }
 
-@media (min-width: 918px) {
-    body {
+@media (min-width: 1024px) {
+    main {
         display: grid;
         grid-template-areas:
             'h h'
-            'one two'
-            'one two'
+            'o t'
+            'o t'
             'f f';
+    }
+
+    h1,
+    h2,
+    h3 {
+        text-align: center;
+        background-color: red;
+        color: white;
+    }
+
+    code {
+        background-color: black;
+        color: yellow;
     }
 
     #h {
         grid-area: h;
         margin-right: auto;
         margin-left: auto;
-        width: 75vw;
-    }
-
-    #one, #two {
-        width:50vw;
+        width: 25vw;
     }
 
     #one {
-        grid-area: one;
+        grid-area: o;
     }
 
     #two {
-        grid-area: two;
+        grid-area: t;
+    }
+
+    #one,
+    #two {
+        height:
     }
 
     #f {
