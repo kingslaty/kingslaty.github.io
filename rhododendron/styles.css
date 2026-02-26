@@ -68,7 +68,6 @@ p:first-letter {
 @media (min-width: 1024px) {
     h1 {
         font-size: 2rem;
-        width: 50%;
     }
 
     p {
@@ -84,4 +83,11 @@ p:first-letter {
         width: 20%;
         margin-left: 10%;
     }
+
+    #one,
+    #three {
+        width: 50vw;
+    }
+
+    #three {}
 }
