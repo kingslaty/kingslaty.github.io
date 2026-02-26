@@ -57,11 +57,6 @@ code {
         grid-area: t;
     }
 
-    #one,
-    #two {
-        height:
-    }
-
     #f {
         grid-area: f;
     }
