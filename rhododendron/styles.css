@@ -93,7 +93,7 @@ p:first-letter {
 
     #two p, #two h1{
         text-align: right;
-        margin-left: 3vw
+        margin-left: 3vw;
     }
 
     #one p, #one h1 {
