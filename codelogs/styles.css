@@ -1,32 +1,51 @@
-h1,h2, h3 {
-    text-align:center;
-    background-color:gold
+h1,
+h2,
+h3 {
+    text-align: center;
+    background-color: gold
 }
-p, li {
-    text-align:justify;
+
+p,
+li {
+    text-align: justify;
 }
 
 li {
-    margin-right:0.7rem
+    margin-right: 0.7rem
 }
 
 code {
-    background-color:lightgray;
-    color:blue;  
+    background-color: lightgray;
+    color: blue;
 }
 
 @media (min-height: 918px) {
     body {
-        display:grid;
+        display: grid;
         grid-template-areas:
-        'h h'
-        '. .'
-        '. .'
+            'h h'
+            'one two'
+            'one two'
+            'f f'
     }
+
     #h {
         grid-area: h;
-        margin-right:auto;
-        margin-left:auto;
-        width:75vw;
+        margin-right: auto;
+        margin-left: auto;
+        width: 75vw;
     }
+
+    #one {
+        grid-area: one;
+    }
+
+    #two {
+        grid-area: two;
+    }
+
+    #f {
+        grid-area: f;
+    }
+
 }
