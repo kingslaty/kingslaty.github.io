@@ -2,7 +2,7 @@ h1,
 h2,
 h3 {
     text-align: center;
-    background-color: gold
+    background-color: gold;
 }
 
 p,
@@ -11,7 +11,7 @@ li {
 }
 
 li {
-    margin-right: 0.7rem
+    margin-right: 0.7rem;
 }
 
 code {
@@ -19,14 +19,14 @@ code {
     color: blue;
 }
 
-@media (min-height: 918px) {
+@media (min-width: 918px) {
     body {
         display: grid;
         grid-template-areas:
             'h h'
             'one two'
             'one two'
-            'f f'
+            'f f';
     }
 
     #h {
@@ -34,6 +34,10 @@ code {
         margin-right: auto;
         margin-left: auto;
         width: 75vw;
+    }
+
+    #one, #two {
+        width:50vw;
     }
 
     #one {
