@@ -34,37 +34,41 @@ p:first-letter {
 
 @media (min-width: 918px) {
     main {
-        display:grid;
-        grid-template-areas: 
-        ' main main'
-          'one three'
-          'two two';
+        display: grid;
+        grid-template-areas:
+            ' main main'
+            'one three'
+            'two map';
     }
-     img {
+
+    img {
         width: 50%;
     }
+
     h1 {
         font-size: 2rem;
     }
 
-    #flower h1, #two h1 #flower p {
-        text-align:center;
-        width:;
-        margin:0
+    #flower h1,
+    #two h1 #flower p {
+        text-align: center;
+        width: ;
+        margin: 0
     }
 
     #flower {
-        grid-area:main;
-        text-align:center;
+        grid-area: main;
+        text-align: center;
     }
 
     #two {
-        grid-area:two;
+        grid-area: two;
     }
 
-    #two img {
+    #map {
         width: 20%;
-        margin-left:10vw;
+        margin-left: 10vw;
+        grid-area: map;
     }
 
     #one,
@@ -73,10 +77,11 @@ p:first-letter {
     }
 
     #three {
-        grid-area:three;
-        text-align:right;
+        grid-area: three;
+        text-align: right;
     }
+
     #one {
-        grid-area:one;
+        grid-area: one;
     }
 }
