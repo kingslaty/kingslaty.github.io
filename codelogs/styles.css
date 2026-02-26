@@ -19,12 +19,12 @@ code {
     body {
         display:grid;
         grid-template-areas:
-        'head head'
+        'h h'
         '. .'
         '. .'
     }
-    header {
-        grid-area: head;
+    #h {
+        grid-area: h;
         margin-right:auto;
         margin-left:auto;
         width:75vw;
