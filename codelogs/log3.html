@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Media Queries</title>
+
+    <!-- external and internal CSS -->
+    <link rel="stylesheet" href="styles.css" media="all">
+    <style>
+        /* in-file CSS here */
+    </style>
+
+</head>
+
+<body>
+   <header>
+    <h1>CSS Media Queries</h1>
+   </header>
+   <main>
+    <div>
+        <h2>What is A Media Query?</h2>
+        <p>By using the <code>@media { }</code> tag in css, we can make a media query! Media queries are used
+           when we want to make a page look different under different circumstances, like screen size. It
+           is most useful when designing a responsive website, so your page can look good on both desktop
+           and mobile devices. A website designed for only desktop is far too small when opened on mobile,
+           while a website designed for only mobile would look overwhelming on desktop. </p>
+           <h2>Media Features</h2>
+        <ul>
+            <li><code>min-width</code>
+                 <ul>
+                    <li>The <code>min-width</code> feature is usually used when designing a website as mobile-first.
+                    It dictates the minimum size that a screen must be for the layout to change from the smallest
+                    default. It is recommended to start mobile-first.</li>
+                 </ul>
+            </li>
+            <li><code>max-width</code>
+                 <ul>
+                    <li>The <code>max-width</code> feature is usually used when designing a website as desktop-first.
+                    It dictates the maximum size that a screen must be for the layout to change from the largest
+                    default. It is not recommended to start desktop-first.</li>
+                 </ul>
+            </li>
+            <li><code>orientation</code>
+                 <ul>
+                    <li>The <code>orientation</code> feature is used when you want the layout of your website
+                    to change when a device is in portrait mode versus landscape mode, like your phone.</li>
+                 </ul>
+            </li>
+            <li><code>resolution</code>
+                 <ul>
+                    <li>The <code>resolution</code> is used when you want a website's layout to change 
+                    depending on the pixel density of a visitors device, often for <code>font-size</code>.</li>
+                 </ul>
+            </li>
+        </ul>
+    </div>
+   </main>
+</body>
+
+</html>
