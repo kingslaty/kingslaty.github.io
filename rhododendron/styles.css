@@ -36,7 +36,7 @@ p:first-letter {
     main {
         display: grid;
         grid-template-areas:
-            ' main main'
+            'main main'
             'one two'
             'three three';
     }
@@ -62,6 +62,9 @@ p:first-letter {
     #three h1,
     #flower p {
         text-align: center;
+        width:50%;
+        margin-left:auto;
+        margin-right:auto;
     }
 
     #flower {
@@ -82,13 +85,18 @@ p:first-letter {
         grid-area: two;
     }
 
-    #two p {
+    #two p, #one p {
+        height:21vw;
+    }
+
+    #two p, #two h1{
         text-align: right;
         margin-left: 3vw
     }
 
-    #one p {
+    #one p, #one h1 {
         margin-right:3vw;
+        text-align:left;
     }
 
     #one {
