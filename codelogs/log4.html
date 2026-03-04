@@ -1,27 +1,92 @@
-
 <!DOCTYPE html>
 <html>
-<head>
-	
-	<!-- meta tags and title -->
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CSS Color</title>
 
-	<!-- external and internal CSS -->
-	<link rel="stylesheet" href="styles.css" media="all">
-	<style>
-		/* in-file CSS here */
-	</style>
+<head>
+
+    <!-- meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Color</title>
+
+    <!-- external and internal CSS -->
+    <link rel="stylesheet" href="styles.css" media="all">
+    <style>
+        /* in-file CSS here */
+    </style>
 
 </head>
-<body>
 
-<div>
-    <h1>CSS Colors</h1>
-    <p>Colors are used to make your page more vibrant and lively, help it to stand out in a sea of
-        black text on white background. Gives you a little break fro mthe monotany.
-    </p>
-</div>
+<body>
+    <header>
+        <div>
+            <h1>CSS Colors</h1>
+            <p>Colors are used to make your page more vibrant and lively, help it to stand out in a sea of
+                black text on white background. Gives you a little break from the monotany. It can also look
+                terribly garish when overused, which it will here becuase I'm gonna overuse the hell outta 'em. </p>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h2>Color Properties</h2>
+            <p>Color can be used on text using the <code>{ color }</code> property, on the background using the
+                <code>{ background-color }</code> property, and on the border of your element using the
+                <code>{ border-color }</code> property.
+            </p>
+            <p><code>p {
+              color: red;
+              background-color: #4287f5;
+              border-color: rgb(255 225 0);
+             }
+    </code></p>
+        </div>
+        <div>
+            <h2>Types of Color</h2>
+            <p>You're probably wondering why three very different formats for the color code example above
+                <i>(I know you're not but pretend you are)</i>. That is becuase you can write color in a multitude of
+                ways.
+            </p>
+            <ul>
+                <li>Named Colors
+                    <ul>
+                        <li>Named colors are the simpliest way to code colors, but also the most limited. You simpily
+                            type
+                            the name of a color that is already implemented into CSS and you're good to go!
+                            It is useful for simple colors like red or blue, but if you want to get more funky
+                            with it the latter choices would suit you much better.</li>
+                    </ul>
+                </li>
+                <li>Hexidecimal Code
+                    <ul>
+                        <li>Hexidecimal code requires a # followed by a 6 character long sequence of numbers and
+                            letters. Every color has one, and this method will expand your pallet tenfold.
+                            These codes are pretty easy to find, there's even a color picker on google you can look up.
+                            This method would be my go-to if I was more particular about the colors I use.</li>
+                    </ul>
+                </li>
+                <li>RGB Scale
+                    <ul>
+                        <li>The RBG (red, green, blue) scale is longer than hexidecimal codes, but it does have one
+                            upside; <span>it can get transparent with it.</span> This can be done by 
+                            typing <code>{ rbg(R G B / %) }</code> With R being how much red is present, G 
+                            how much green, B how much blue, and the precent being the visibility of 
+                            the color. 100 for fully visible, 0 for invisible.
+                        </li>
+                    </ul>
+                </li>
+                <li>HSL Scale
+                    <ul>
+                        <li>HSL stands for hue, saturation, and lightness. It isn't as popular as the first three
+                            options, but it
+                            probably has its uses if you wanted to play with those specfic values. HSL is written as
+                            <code>hsl(150 30% 60%)</code> with the numbers corresponding to the order the letters are
+                            listed.
+                            <span>It can also add transparency</span> through the same method as the RGB scale.
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </main>
 </body>
+
 </html>
