@@ -1,3 +1,12 @@
+* {
+    box-sizing: border-box;
+    padding: 2px;
+}
+
+i {
+    color:rgb(255 0 0 / 70%);
+}
+
 h1 {
     color:green;
     border: solid 5px #cf02f7;
@@ -20,8 +29,35 @@ code {
     background-color:rgb(0 0 255);
 }
 
-li {
+#name {
+    color:blue;
+    border: solid 5px navy;
+    background-color: gold;
+}
+
+#hexi {
     color:#ff1493;
     border: solid 5px #05ff86;
-    background-color: #ffcc4d;
+    background-color: #ffebba;
+}
+#rgb {
+    color:rgb(255 0 83);
+    border: solid 5px rgb(96 127 0);
+    background-color: rgb(245 245 66);
+}
+
+#hsl {
+    color:hsl(240 60.54% 40.86%);
+    border: solid 5px hsl(330.87 100% 79.8%);
+    background-color: hsl(162.19 90.84% 66.29%);
+}
+
+#rgb span {
+    color:rgb(255 0 83 / 53%);
+    font-style:italic;
+}
+
+#hsl span {
+    color:hsl(240deg 60.54% 40.86% / 53%);
+    font-style:italic;
 }
