@@ -1,9 +1,27 @@
 h1 {
-    color:darkblue;
-    border: solid 2px;
-    border-color:#9c2727;
-    backgroud-color: rbg(201 195 18);
+    color:green;
+    border: solid 5px #cf02f7;
+    background-color: rgb(105, 255, 5);
 }
 h2 {
-    color:#9c2727;
+    color:yellow;
+    border: solid 5px #03fbff;
+    background-color: rgb(2 23 247);
+}
+
+p {
+    color:red;
+    border: solid 5px #4287f5;
+    background-color:rgb(255 255 0)
+}
+
+code {
+    color:white;
+    background-color:rgb(0 0 255);
+}
+
+li {
+    color:#ff1493;
+    border: solid 5px #05ff86;
+    background-color: #ffcc4d;
 }
