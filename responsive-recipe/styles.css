@@ -1,0 +1,19 @@
+img {
+    width:100%;
+    height:auto;
+}
+
+header h1 {
+    position:absolute;
+    top:1%;
+    margin-right:5%;
+    margin-left:5%;
+    text-align:center;
+    color:white;
+}
+
+header p {
+    text-align:center;
+    font-style:italic;
+    margin-top:0;
+}
