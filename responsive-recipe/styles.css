@@ -58,10 +58,9 @@ h3 {
     grid-area: pre;
 }
 
-#instruct
-{
-margin-right: auto;
-margin-left: auto;
+#instruct {
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #prepdough {
