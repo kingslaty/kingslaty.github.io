@@ -1,5 +1,4 @@
 header h1 {
-    top: 1%;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
@@ -23,8 +22,9 @@ section {
     display: grid;
     grid-template-areas:
         'h h'
-        'in in'
-        'f d'
+        'in a'
+        'f a'
+        'd a'
         'pre pre'
         'do do'
         'fi fi'
@@ -39,8 +39,6 @@ h3 {
 
 #ingrid {
     grid-area: in;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #fill {
@@ -51,8 +49,15 @@ h3 {
     grid-area: d;
 }
 
+#dough, #fill {
+    margin-right:1rem;
+}
+
 #instruct {
     grid-area: pre;
+}
+
+#instruct, {
     margin-right: auto;
     margin-left: auto;
 }
@@ -76,33 +81,46 @@ h3 {
 #author {
     grid-area:a;
 }
+
+img {
+    width:100%;
+    max-width:200px;
+    min-width:200px
+}
+
+#me {
+    margin-top:7rem;
+}
+
 @media (min-width:700px) {
     section {
     display: grid;
     grid-template-areas:
-        'h h in a'
-        'h h f a'
-        'h h d .'
-        'pre . . .'
-        'do fi s s';
+        'h h h in a'
+        'h h h f a'
+        'h h h d a'
+        'pre . . . .'
+        'do do fi s s';
 }
-    #instruct {
-        margin:0
+    #instruct, #prepdough, #prepfill, #shape {
+        margin-left: 1rem;
+         margin-right: 1rem;
+
     }
 
     #ingrid {
-        margin:0 0 0 1;
+        margin-left:1rem;
     }
 
     header h1 {
-        height:20rem;
+        height:25rem;
+        
         text-align:left;
     }
 
-    #fill {
-       margin-left:1.5rem;
+    #fill, #dough {
+       margin-left:1rem;
+        margin-right:1rem;
     }
-    #dough {
-        margin-left:1.5rem;
-    }
+
 }
