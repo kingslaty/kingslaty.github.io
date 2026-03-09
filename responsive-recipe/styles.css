@@ -73,12 +73,15 @@ h3 {
     grid-area: h;
 }
 
+#author {
+    grid-area:a;
+}
 @media (min-width:700px) {
     section {
     display: grid;
     grid-template-areas:
-        'h h in .'
-        'h h f .'
+        'h h in a'
+        'h h f a'
         'h h d .'
         'pre . . .'
         'do fi s s';
