@@ -67,7 +67,7 @@ h3 {
 }
 
 @media (min-width:900px) {
-     header {
+     body {
         display:grid;
         grid-template-areas:
         'h h in .'
