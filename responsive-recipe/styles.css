@@ -19,22 +19,23 @@ header p {
 }
 
 main {
-    display:grid;
+    display: grid;
     grid-template-areas:
-    'in in'
-    'pre pre'
-    'pre pre';
+        'in in'
+        'pre pre'
+        'pre pre';
 }
+
 #ingrid {
     grid-area: in;
 }
 
 #fill {
-    grid-area:f;
+    grid-area: f;
 }
 
 #dough {
- grid-area:d;
+    grid-area: d;
 }
 
 #instruct {
