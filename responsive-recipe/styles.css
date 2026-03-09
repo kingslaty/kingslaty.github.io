@@ -8,7 +8,9 @@ header h1 {
     height: 15rem;
     background-image:
         url(jeremias-ybanez-Vhlj6y-7ENA-unsplash.jpg);
-    background-size: 100% auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 header p {
@@ -17,9 +19,10 @@ header p {
     margin-top: 0;
 }
 
-main {
+section {
     display: grid;
     grid-template-areas:
+        'h h'
         'in in'
         'f d'
         'pre pre'
@@ -66,20 +69,8 @@ h3 {
     grid-area: s;
 }
 
-@media (min-width:900px) {
-     section {
-        display:grid;
-        grid-template-areas:
-        'h h in .'
-        '. . f .'
-        '. . d .'
-         'pre pre . .'
-         'do fi s .';
-    }
-    #head {
-        grid-area: h;
-    }
-    header h1 {
-        height:18rem;
-    }
+#head {
+    grid-area: h;
 }
+
+@media (min-width:900px) {}
