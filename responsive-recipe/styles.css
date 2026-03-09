@@ -65,3 +65,19 @@ h3 {
 #shape {
     grid-area: s;
 }
+
+@media (min-width:900px) {
+     header {
+        display:grid;
+        grid-template-areas:
+        'h h in .'
+        'pre . . .'
+        'do fi . .';
+    }
+    #head {
+        grid-area: h;
+    }
+    header h1 {
+        height:18rem;
+    }
+}
