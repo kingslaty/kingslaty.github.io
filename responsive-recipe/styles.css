@@ -12,7 +12,7 @@ header h1 {
     background-repeat: no-repeat;
 }
 
-header p, #author p {
+header p {
     text-align: center;
     font-style: italic;
     margin-top: 0;
@@ -81,10 +81,6 @@ h3 {
 
 #author {
     grid-area: a;
-}
-
-#author h3 {
-    text-align:center;
 }
 
 img {
