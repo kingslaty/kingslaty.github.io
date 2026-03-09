@@ -73,4 +73,33 @@ h3 {
     grid-area: h;
 }
 
-@media (min-width:900px) {}
+@media (min-width:700px) {
+    section {
+    display: grid;
+    grid-template-areas:
+        'h h in .'
+        'h h f .'
+        'h h d .'
+        'pre . . .'
+        'do fi s s';
+}
+    #instruct {
+        margin:0
+    }
+
+    #ingrid {
+        margin:0 0 0 1;
+    }
+
+    header h1 {
+        height:20rem;
+        text-align:left;
+    }
+
+    #fill {
+       margin-left:1.5rem;
+    }
+    #dough {
+        margin-left:1.5rem;
+    }
+}
