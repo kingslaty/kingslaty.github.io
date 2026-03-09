@@ -67,12 +67,14 @@ h3 {
 }
 
 @media (min-width:900px) {
-     body {
+     section {
         display:grid;
         grid-template-areas:
         'h h in .'
-        'pre . . .'
-        'do fi . .';
+        '. . f .'
+        '. . d .'
+         'pre pre . .'
+         'do fi s .';
     }
     #head {
         grid-area: h;
