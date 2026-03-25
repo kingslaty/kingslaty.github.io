@@ -101,8 +101,7 @@ footer {
     grid-area: fot;
 }
 
-ul,
-ol {
+div ul, div ol {
     background-color: white;
     border-radius: 25px;
     padding: 25px;
@@ -133,8 +132,7 @@ ol {
         max-width: 700px;
     }
 
-    ul,
-    ol {
+    div ul, div ol {
         line-height: 1.5rem;
         min-height: 100px;
     }
@@ -152,7 +150,15 @@ ol {
         min-height: 220px;
     }
 
+    #ingridient {
+        margin-top:10px;
+        padding-top:15px
+    }
+
 }
+
+
+
 
 /* premade nav css /*
 
@@ -165,10 +171,10 @@ ol {
 /* define variables */
 :root {
     --nav-height: 3rem;
-    --nav-bkgd-color: gray;
-    --nav-text-color: white;
-    --nav-hover-bkgd-color: lightgray;
-    --nav-hover-text-color: black;
+    --nav-bkgd-color: #000095;
+    --nav-text-color: #ffdb96;
+    --nav-hover-bkgd-color: #3636ff;
+    --nav-hover-text-color: #ffc75d;
 }
 
 body {
