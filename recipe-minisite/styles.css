@@ -10,18 +10,18 @@ header h1 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
+
 }
 
 header p {
     text-align: center;
     font-style: italic;
     margin-top: 0;
-    color:#000095;
+    color: #000095;
 }
 
 body {
-    background-color:#fff3dc;
+    background-color: #fff3dc;
     display: grid;
     grid-template-areas:
         'hed hed'
@@ -47,7 +47,7 @@ h3 {
 
 #fill {
     grid-area: fil;
-    margin-left:1rem;
+    margin-left: 1rem;
 }
 
 #dough {
@@ -60,24 +60,25 @@ h3 {
 }
 
 h3 {
-    text-align:center;
-    background-color:#ffc75d;
-    border-radius:10px;
-    padding:10px;
-    color:#000095;
+    text-align: center;
+    background-color: #ffc75d;
+    border-radius: 10px;
+    padding: 10px;
+    color: #000095;
 }
 
 #instruct {
     grid-area: prep;
 }
 
-#ingridient, #instruct {
+#ingridient,
+#instruct {
     margin-right: auto;
     margin-left: auto;
-    background-color:#ffdb96;
-    border-radius:10px;
-    padding:0 10px;
-    color:#000095;
+    background-color: #ffdb96;
+    border-radius: 10px;
+    padding: 0 10px;
+    color: #000095;
 }
 
 #prepdough {
@@ -100,11 +101,12 @@ footer {
     grid-area: fot;
 }
 
-ul, ol {
-    background-color:white;
-    border-radius:25px;
-    padding:25px;
-    min-height:200px;
+ul,
+ol {
+    background-color: white;
+    border-radius: 25px;
+    padding: 25px;
+    min-height: 200px;
 }
 
 @media (min-width:700px) {
@@ -121,31 +123,32 @@ ul, ol {
             'fot fot fot fot fot';
     }
 
-    
+
     #prepdough,
     #prepfill,
     #shape {
         margin-left: auto;
         margin-right: auto;
-        width:75%;
+        width: 75%;
     }
 
-    ul, ol {
-        line-height:1.5rem;
-        min-height:100px;
+    ul,
+    ol {
+        line-height: 1.5rem;
+        min-height: 100px;
     }
 
     header h1 {
         height: 25rem;
         text-align: left;
-        
+
     }
 
     #fill ul,
     #dough ul {
         margin-left: 1rem;
         margin-right: 1rem;
-        min-height:220px;
+        min-height: 220px;
     }
 
 }
