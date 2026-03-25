@@ -171,11 +171,7 @@ ol {
     --nav-hover-text-color: black;
 }
 
-#premadenav {
-    box-sizing: border-box;
-}
-
-#premadenav body {
+body {
     margin: 0;
     padding: var(--nav-height) 0 0 0;
 }
