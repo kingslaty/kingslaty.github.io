@@ -21,14 +21,15 @@ header p {
 body {
     display: grid;
     grid-template-areas:
-        'h h'
-        'in a'
-        'f a'
-        'd a'
-        'pre pre'
-        'do do'
-        'fi fi'
-        's s';
+        'hed hed'
+        'ing ing'
+        'fil dou'
+        'fil dou'
+        'prep prep'
+        'predou predou'
+        'prefil prefil'
+        'shp shp'
+        'fot fot';
 }
 
 h1,
@@ -37,16 +38,16 @@ h3 {
     text-transform: uppercase;
 }
 
-#ingrid {
-    grid-area: in;
+#ingridient {
+    grid-area: ing;
 }
 
 #fill {
-    grid-area: f;
+    grid-area: fil;
 }
 
 #dough {
-    grid-area: d;
+    grid-area: dou;
 }
 
 #dough,
@@ -55,53 +56,41 @@ h3 {
 }
 
 #instruct {
-    grid-area: pre;
-}
-
-#instruct {
+    grid-area: prep;
     margin-right: auto;
     margin-left: auto;
 }
 
 #prepdough {
-    grid-area: do;
+    grid-area: predou;
 }
 
 #prepfill {
-    grid-area: fi;
+    grid-area: prefil;
 }
 
 #shape {
-    grid-area: s;
+    grid-area: shp;
 }
 
-#head {
-    grid-area: h;
+header {
+    grid-area: hed;
 }
 
-#author {
-    grid-area: a;
-}
-
-img {
-    width: 100%;
-    max-width: 200px;
-    min-width: 200px
-}
-
-#me {
-    margin-top: 5rem;
+footer {
+    grid-area: fot;
 }
 
 @media (min-width:700px) {
     body {
         display: grid;
         grid-template-areas:
-            'h h h in a'
-            'h h h f a'
-            'h h h d a'
-            'pre . . . .'
-            'do do fi s s';
+            'hed hed hed ing ing'
+            'hed hed hed fil dou'
+            'hed hed hed fil dou'
+            'prep . . . .'
+            'predou predou prefil shp shp'
+            'fot fot fot fot fot';
     }
 
     #instruct,
@@ -113,7 +102,7 @@ img {
 
     }
 
-    #ingrid {
+    #ingridient {
         margin-left: 1rem;
     }
 
