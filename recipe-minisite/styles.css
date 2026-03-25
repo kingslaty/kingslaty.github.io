@@ -114,34 +114,38 @@ ul, ol {
             'hed hed hed ing ing'
             'hed hed hed fil dou'
             'hed hed hed fil dou'
-            'prep . . . .'
-            'predou predou prefil shp shp'
+            'prep prep prep prep prep'
+            'predou predou predou predou predou'
+            'prefil prefil prefil prefil prefil'
+            'shp shp shp shp shp'
             'fot fot fot fot fot';
     }
 
-    #instruct,
+    
     #prepdough,
     #prepfill,
     #shape {
-        margin-left: 1rem;
-        margin-right: 1rem;
-
+        margin-left: auto;
+        margin-right: auto;
+        width:75%;
     }
 
-    #ingridient {
-        margin-left: 1rem;
+    ul, ol {
+        line-height:1.5rem;
+        min-height:100px;
     }
 
     header h1 {
         height: 25rem;
-
         text-align: left;
+        
     }
 
-    #fill,
-    #dough {
+    #fill ul,
+    #dough ul {
         margin-left: 1rem;
         margin-right: 1rem;
+        min-height:220px;
     }
 
 }
