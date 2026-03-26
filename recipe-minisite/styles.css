@@ -24,7 +24,7 @@ body {
     background-color: #fff3dc;
 }
 
-#cheese body {
+#cheese {
     display: grid;
     grid-template-areas:
         'hed hed'
@@ -112,7 +112,7 @@ div ul, div ol {
 }
 
 @media (min-width:700px) {
-    #cheese body {
+    #cheese {
         display: grid;
         grid-template-areas:
             'hed hed hed ing ing'
@@ -167,12 +167,12 @@ div ul, div ol {
     background-image: url(sj-YDvfndOs4IQ-unsplash.jpg);
 }
 
-#cookie body {
+#cookie {
     display:grid;
     grid-template-areas:
-    'hed hed'
-    'ing ing'
-    'ingli ingli'
+    'hed'
+    'ing'
+    'ingli'
     'prep'
     'preli'
     'fot';  
@@ -182,8 +182,34 @@ div ul, div ol {
     grid-area:ingli;
 }
 
-.instructli {
+.instructlist {
     grid-area:preli;
+}
+
+@media (min-width:700px) {
+    #cookie {
+        display: grid;
+        grid-template-areas:
+            'hed hed hed ing ing'
+            'hed hed hed ingli ingli'
+            'hed hed hed ingli ingli'
+            'prep prep prep prep prep'
+            'preli preli preli preli preli'
+            'fot fot fot fot fot';
+    }
+
+    .instructlist ol {
+        margin-right:auto;
+        margin-left:auto;
+        width: 75%;
+        max-width: 700px;
+    }
+
+    .ingridlist ul {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        min-height: 220px;
+    }
 }
 
 
