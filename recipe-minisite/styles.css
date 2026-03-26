@@ -104,7 +104,8 @@ footer {
     grid-area: fot;
 }
 
-div ul, div ol {
+div ul,
+div ol {
     background-color: white;
     border-radius: 25px;
     padding: 25px;
@@ -135,7 +136,8 @@ div ul, div ol {
         max-width: 700px;
     }
 
-    div ul, div ol {
+    div ul,
+    div ol {
         line-height: 1.5rem;
         min-height: 100px;
     }
@@ -143,7 +145,7 @@ div ul, div ol {
     header h1 {
         height: 25rem;
         text-align: left;
-        text-indent:10px;
+        text-indent: 10px;
     }
 
     #fill ul,
@@ -154,8 +156,8 @@ div ul, div ol {
     }
 
     .ingridient {
-        margin-top:10px;
-        padding-top:15px
+        margin-top: 10px;
+        padding-top: 15px
     }
 
 }
@@ -168,22 +170,22 @@ div ul, div ol {
 }
 
 #cookie {
-    display:grid;
+    display: grid;
     grid-template-areas:
-    'hed'
-    'ing'
-    'ingli'
-    'prep'
-    'preli'
-    'fot';  
+        'hed'
+        'ing'
+        'ingli'
+        'prep'
+        'preli'
+        'fot';
 }
 
 .ingridlist {
-    grid-area:ingli;
+    grid-area: ingli;
 }
 
 .instructlist {
-    grid-area:preli;
+    grid-area: preli;
 }
 
 @media (min-width:700px) {
@@ -199,16 +201,15 @@ div ul, div ol {
     }
 
     .instructlist ol {
-        margin-right:auto;
-        margin-left:auto;
+        margin-right: auto;
+        margin-left: auto;
         width: 75%;
-        max-width: 700px;
     }
 
     .ingridlist ul {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        min-height: 220px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 75%;
     }
 }
 
@@ -217,6 +218,30 @@ div ul, div ol {
 
 #spaget header h1 {
     background-image: url(christine-sandu-Nx3OCfnRit8-unsplash.jpg);
+}
+
+#spaget {
+    display: grid;
+    grid-template-areas:
+        'hed'
+        'ing'
+        'ingli'
+        'prep'
+        'preli'
+        'fot';
+}
+
+@media (min-width:700px) {
+    #spaget {
+        display: grid;
+        grid-template-areas:
+            'hed hed hed ing ing'
+            'hed hed hed ingli ingli'
+            'hed hed hed ingli ingli'
+            'prep prep prep prep prep'
+            'preli preli preli preli preli'
+            'fot fot fot fot fot';
+    }
 }
 
 
