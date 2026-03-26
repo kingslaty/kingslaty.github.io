@@ -218,7 +218,7 @@ div ol {
 
 #spaget header h1 {
     background-image: url(christine-sandu-Nx3OCfnRit8-unsplash.jpg);
-    color:black;
+    color:white;
 }
 
 #spaget {
@@ -243,6 +243,10 @@ div ol {
             'preli preli preli preli preli'
             'fot fot fot fot fot';
     }
+
+    #spaget header h1 {
+    color:black;
+}
 }
 
 
