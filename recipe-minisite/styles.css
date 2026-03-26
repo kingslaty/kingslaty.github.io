@@ -110,6 +110,7 @@ div ol {
     border-radius: 25px;
     padding: 25px;
     min-height: 200px;
+    line-height: 1.5rem;
 }
 
 @media (min-width:700px) {
@@ -138,7 +139,6 @@ div ol {
 
     div ul,
     div ol {
-        line-height: 1.5rem;
         min-height: 100px;
     }
 
