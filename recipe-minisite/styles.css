@@ -148,6 +148,7 @@ div ol {
         font-size: 300px;
         writing-mode: horizontal-tb;
         margin-bottom: 0;
+        text-align:center;
     }
 
     #prepdough,
