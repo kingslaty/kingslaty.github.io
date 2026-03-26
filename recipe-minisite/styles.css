@@ -167,12 +167,20 @@ div ul, div ol {
 #cookie body {
     display:grid;
     grid-template-areas:
-    'hed'
+    'head'
     'ing'
-    'dou'
+    'ingli'
     'prep'
-    'prepdou'
+    'preli'
     'fot';  
+}
+
+.ingridlist {
+    grid-area:ingli;
+}
+
+.instructli {
+    grid-area:preli;
 }
 
 
