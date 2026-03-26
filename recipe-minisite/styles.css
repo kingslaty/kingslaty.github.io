@@ -160,14 +160,25 @@ div ul, div ol {
 
 /* ------ recipe 2 css ------ */
 
-#cookie header {
+#cookie header h1 {
     background-image: url(sj-YDvfndOs4IQ-unsplash.jpg);
+}
+
+#cookie body {
+    display:grid;
+    grid-template-areas:
+    'hed'
+    'ing'
+    'dou'
+    'prep'
+    'prepdou'
+    'fot';  
 }
 
 
 /* ------- recipe 3 css --------- */
 
-#spaget header {
+#spaget header h1 {
     background-image: url(christine-sandu-Nx3OCfnRit8-unsplash.jpg);
 }
 
