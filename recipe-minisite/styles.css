@@ -158,13 +158,21 @@ div ul, div ol {
 }
 
 
+/* ------ recipe 2 css ------ */
+
+#cookie header {
+    background-image: url(sj-YDvfndOs4IQ-unsplash.jpg);
+}
 
 
-/* premade nav css /*
+/* ------- recipe 3 css --------- */
+
+#spaget header {
+    background-image: url(christine-sandu-Nx3OCfnRit8-unsplash.jpg);
+}
 
 
-
-
+/* --------- premade nav css --------- /*
 
 /* CSS for responsive menu demo */
 
