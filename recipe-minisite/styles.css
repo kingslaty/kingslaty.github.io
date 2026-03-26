@@ -22,6 +22,9 @@ header p {
 
 body {
     background-color: #fff3dc;
+}
+
+#cheese body {
     display: grid;
     grid-template-areas:
         'hed hed'
@@ -109,7 +112,7 @@ div ul, div ol {
 }
 
 @media (min-width:700px) {
-    body {
+    #cheese body {
         display: grid;
         grid-template-areas:
             'hed hed hed ing ing'
@@ -167,9 +170,9 @@ div ul, div ol {
 #cookie body {
     display:grid;
     grid-template-areas:
-    'head'
-    'ing'
-    'ingli'
+    'hed hed'
+    'ing ing'
+    'ingli ingli'
     'prep'
     'preli'
     'fot';  
@@ -202,11 +205,6 @@ div ul, div ol {
     --nav-text-color: #ffdb96;
     --nav-hover-bkgd-color: #3636ff;
     --nav-hover-text-color: #ffc75d;
-}
-
-body {
-    margin: 0;
-    padding: var(--nav-height) 0 0 0;
 }
 
 nav {
