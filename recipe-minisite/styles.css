@@ -152,7 +152,7 @@ div ol {
     #dough ul {
         margin-left: 1rem;
         margin-right: 1rem;
-        min-height: 220px;
+        min-height: 250px;
     }
 
     .ingridient {
@@ -188,6 +188,11 @@ div ol {
     grid-area: preli;
 }
 
+.instructlist ul,
+.ingridlist ul {
+    min-height: 0;
+}
+
 @media (min-width:700px) {
     #cookie {
         display: grid;
@@ -218,7 +223,7 @@ div ol {
 
 #spaget header h1 {
     background-image: url(christine-sandu-Nx3OCfnRit8-unsplash.jpg);
-    color:white;
+    color: white;
 }
 
 #spaget {
@@ -245,8 +250,8 @@ div ol {
     }
 
     #spaget header h1 {
-    color:black;
-}
+        color: black;
+    }
 }
 
 
