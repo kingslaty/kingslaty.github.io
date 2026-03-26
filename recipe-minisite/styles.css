@@ -1,3 +1,20 @@
+#bigtext h1 {
+    margin-top: 70px;
+    font-size: 310px;
+    writing-mode: vertical-rl;
+    margin-left: 0;
+    text-orientation: upright;
+    color: #000095;
+    font-weight: 900;
+}
+
+#bigtext p {
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+    color: #000095;
+}
+
 header h1 {
     margin-right: auto;
     margin-left: auto;
@@ -127,6 +144,11 @@ div ol {
             'fot fot fot fot fot';
     }
 
+    #bigtext h1 {
+        font-size: 300px;
+        writing-mode: horizontal-tb;
+        margin-bottom: 0;
+    }
 
     #prepdough,
     #prepfill,
