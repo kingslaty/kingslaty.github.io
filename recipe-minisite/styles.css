@@ -41,7 +41,7 @@ h3 {
     text-transform: uppercase;
 }
 
-#ingridient {
+.ingridient {
     grid-area: ing;
 }
 
@@ -67,12 +67,12 @@ h3 {
     color: #000095;
 }
 
-#instruct {
+.instruct {
     grid-area: prep;
 }
 
-#ingridient,
-#instruct {
+.ingridient,
+.instruct {
     margin-right: auto;
     margin-left: auto;
     background-color: #ffdb96;
@@ -150,7 +150,7 @@ div ul, div ol {
         min-height: 220px;
     }
 
-    #ingridient {
+    .ingridient {
         margin-top:10px;
         padding-top:15px
     }
