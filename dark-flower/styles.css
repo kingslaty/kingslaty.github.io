@@ -1,0 +1,107 @@
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    background: pink;
+    padding: 1.2rem;
+}
+
+p {
+    text-align: justify;
+    border-bottom: 1px solid indianred;
+    padding-bottom: 1.1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+}
+
+p:first-letter {
+    font-size: 1.3rem;
+}
+
+#flower p {
+    margin: 0.2rem;
+    border: none;
+    padding: 0;
+}
+
+#flower h1 {
+    margin-bottom: 0;
+}
+
+@media (min-width: 918px) {
+    main {
+        display: grid;
+        grid-template-areas:
+            'main main'
+            'one two'
+            'three three';
+    }
+
+    img {
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin:0;
+    }
+
+    p {
+        text-align: left;
+        font-size: 1.5rem;
+        margin:1rem;
+    }
+
+    p:first-letter {
+        font-size: 1.7rem;
+    }
+
+    #flower h1,
+    #three h1,
+    #flower p {
+        text-align: center;
+        width:50%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #flower {
+        grid-area: main;
+        text-align: center;
+    }
+
+    #three {
+        grid-area: three;
+    }
+
+    #one,
+    #two {
+        width: 50vw;
+    }
+
+    #two {
+        grid-area: two;
+    }
+
+    #two p, #one p {
+        height:21vw;
+    }
+
+    #two p, #two h1{
+        text-align: right;
+        margin-left: 3vw;
+    }
+
+    #one p, #one h1 {
+        margin-right:3vw;
+        text-align:left;
+    }
+
+    #one {
+        grid-area: one;
+    }
+}
