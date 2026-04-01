@@ -1,3 +1,7 @@
+body {
+    background-color: #daf6ff;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -5,34 +9,59 @@ img {
 
 h1 {
     text-align: center;
-    background: pink;
-    padding: 1.2rem;
+    background: #e383c3;
+    padding: 10px;
 }
 
 p {
     text-align: justify;
-    border-bottom: 1px solid indianred;
-    padding-bottom: 1.1rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-
-}
-
-p:first-letter {
-    font-size: 1.3rem;
+    border-bottom: 10px solid #2b3f10;
+    padding-bottom: 10px;
 }
 
 #flower p {
-    margin: 0.2rem;
+    margin: 2px;
     border: none;
     padding: 0;
+    text-align: center;
+
 }
 
 #flower h1 {
     margin-bottom: 0;
 }
 
-@media (min-width: 918px) {
+button {
+    width: 100%;
+    background-color: #ffc0cb;
+    border-color: #e383c3;
+}
+
+/* dark mode css */
+
+body.darkMode {
+    background-color: #0f3845;
+    color: white;
+}
+
+body.darkMode p {
+    border-color: #b7df80;
+}
+
+body.darkMode h1 {
+    background-color: #900060;
+}
+
+body.darkMode button {
+    background-color: #ae3987;
+    border-color: #900060;
+    color: white;
+}
+
+/* media queries */
+
+@media (min-width: 700px) {
+
     main {
         display: grid;
         grid-template-areas:
@@ -46,27 +75,21 @@ p:first-letter {
     }
 
     h1 {
-        font-size: 2rem;
-        margin:0;
+        font-size: 30px;
+        margin: 0;
     }
 
     p {
-        text-align: left;
-        font-size: 1.5rem;
-        margin:1rem;
-    }
-
-    p:first-letter {
-        font-size: 1.7rem;
+        font-size: 20px;
+        margin: 10px;
     }
 
     #flower h1,
     #three h1,
     #flower p {
-        text-align: center;
-        width:50%;
-        margin-left:auto;
-        margin-right:auto;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #flower {
@@ -76,38 +99,29 @@ p:first-letter {
 
     #three {
         grid-area: three;
+        text-align: center;
     }
 
-    #one,
-    #two {
-        width: 50vw;
-    }
 
     #two {
         grid-area: two;
+
     }
 
-    #two p, #one p {
-        height:21vw;
+    #two p,
+    #one p,
+    #three p {
+        height: 200px;
+        text-align: center;
     }
 
-    #two p, #two h1{
-        text-align: right;
-        margin-left: 3vw;
-    }
-
-    #one p, #one h1 {
-        margin-right:3vw;
-        text-align:left;
+    #one h1,
+    #two h1 {
+        margin-top: 10px;
     }
 
     #one {
         grid-area: one;
     }
 
-    /* dark mode css */
-
-    body.darkMode {
-        background-color: rgb(60, 60, 60);
-    }
 }
