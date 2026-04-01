@@ -104,4 +104,10 @@ p:first-letter {
     #one {
         grid-area: one;
     }
+
+    /* dark mode css */
+
+    body.darkmode {
+        background-color: rgb(60, 60, 60);
+    }
 }
