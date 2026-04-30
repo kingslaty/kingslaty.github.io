@@ -6,19 +6,76 @@
     box-sizing:border-box;
 }
 
-h1 {
+body {
+    display:grid;
+    grid-template-areas:
+    'header header header'
+    'gif gif gif'
+    'text text text'
+    'c1 . c2'
+}
+
+h1, h3, a {
     text-align:center;
+    color: #131f57;
+}
+
+h1 {
+    font-size:50px;
+    font-family: 'kablammo', monospace;
+    letter-spacing:2px;
+}
+
+h3 {
+    font-style:italic;
+}
+
+h3, p, a {
+    font-family:'freckle face';
+    font-size:20px;
+    letter-spacing:0.5px;
+    word-spacing:1px;
+}
+
+p, a {
+    padding:20px;
+    border: #165b49 solid 5px;
 }
 
 p {
-    background-color:#4e7fa0;
-    color:#2c0d11;
-    padding:20px;
-    font-size:20px;
+    background-color:#9b7c69;
+    color:#131f57;
 }
 
-button {
+a {
     background-color:#59b19a;
-    border-color:#165b49;
-    font-size:20px;
+    text-decoration:none;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    width:400px;
+}
+
+a:hover {
+    background-color:#bcd0d3;
+    border-color: #235b71;
+}
+
+header {
+    grid-area:header;
+}
+
+.gif {
+    grid-area:gif;
+}
+
+.text {
+    grid-area:text;
+}
+
+.choice1 {
+    grid-area:c1
+}
+
+.choice2 {
+    grid-area:c2;
 }
