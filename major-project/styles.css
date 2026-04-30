@@ -13,9 +13,10 @@ body {
     'gif gif gif'
     'text text text'
     'c1 . c2'
+    're re re'
 }
 
-h1, h3, a {
+h1, h3, p, a {
     text-align:center;
     color: #131f57;
 }
@@ -44,7 +45,6 @@ p, a {
 
 p {
     background-color:#9b7c69;
-    color:#131f57;
 }
 
 a {
@@ -58,6 +58,15 @@ a {
 a:hover {
     background-color:#bcd0d3;
     border-color: #235b71;
+}
+
+a:clicked {
+    color:#88c7d0;
+    border-color: #105570;
+}
+
+a:visted {
+    color:#131f57;
 }
 
 header {
@@ -78,4 +87,8 @@ header {
 
 .choice2 {
     grid-area:c2;
+}
+
+.return {
+    grid-area:re;
 }
