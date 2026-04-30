@@ -60,9 +60,9 @@ a:hover {
     border-color: #235b71;
 }
 
-a:clicked {
-    color:#88c7d0;
-    border-color: #105570;
+a:active {
+    background-color:#9b7c69;
+    border-color: #4b2328;
 }
 
 a:visted {
@@ -91,4 +91,6 @@ header {
 
 .return {
     grid-area:re;
+    margin-top:20px;
+    width:100%;
 }
