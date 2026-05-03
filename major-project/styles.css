@@ -60,7 +60,6 @@ a {
     background-color: #59b19a;
     text-decoration: none;
     cursor: pointer;
-    transition-duration: 0.2s;
     width: 400px;
 }
 
@@ -84,6 +83,7 @@ header {
 
 .gif {
     grid-area: gif;
+    border: #165b49 solid 5px;
 }
 
 .text {
