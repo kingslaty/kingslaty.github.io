@@ -1,28 +1,30 @@
 body {
-    background-color:#8bdeff
-}
-h1 {
-    margin-top:50px;
-    font-family: 'Kablammo', monospace;
-    font-size:100px;
-    color:#feffa8;
-    margin-bottom:0;
-    background-color:#1e5b73;
-    border: solid, 5px, #feffa8;
-    
+    background-color: #8bdeff
 }
 
-p, a {
+h1 {
+    margin-top: 60px;
+    font-family: 'Kablammo', monospace;
+    font-size: 100px;
+    color: #8bdeff;
+    margin-bottom: 0;
+    background-color: #1e5b73;
+
+}
+
+p,
+a {
     font-family: 'patrick hand', monospace;
 }
 
 p {
-    color:#810000;
-    font-size:50px;
+    color: #810000;
+    font-size: 50px;
 }
 
-h1, p {
-    text-align:center;
+h1,
+p {
+    text-align: center;
 }
 
 /* --------- premade nav css (borrowed from recipe) --------- /*
