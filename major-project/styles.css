@@ -9,11 +9,11 @@
 body {
     display: grid;
     grid-template-areas:
-        'header header header'
-        'gif gif gif'
-        'text text text'
-        'c1 . c2'
-        're re re'
+        'header header'
+        'gif gif'
+        'text text'
+        'c1 c2'
+        're re'
 }
 
 h1,
@@ -91,7 +91,7 @@ header {
 }
 
 .choice1 {
-    grid-area: c1
+    grid-area: c1;
 }
 
 .choice2 {
@@ -102,4 +102,23 @@ header {
     grid-area: re;
     margin-top: 20px;
     width: 100%;
+}
+
+@media (max-width:900px) {
+    * {
+        width: 100%;
+    }
+
+    .gif {
+        width: 100%;
+    }
+
+    h1,
+    p {
+        width: 100%;
+    }
+
+    a {
+        width: 100%;
+    }
 }
