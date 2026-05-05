@@ -1,14 +1,25 @@
-/* --------- premade nav css --------- /*
+body {
+    background-color:#8bdeff
+}
+h1 {
+    margin-top:50px;
+}
+
+h1, p {
+    text-align:center;
+}
+
+/* --------- premade nav css (borrowed from recipe) --------- /*
 
 /* CSS for responsive menu demo */
 
 /* define variables */
 :root {
     --nav-height: 3rem;
-    --nav-bkgd-color: #000095;
+    --nav-bkgd-color: #993b3b;
     --nav-text-color: #ffdb96;
-    --nav-hover-bkgd-color: #3636ff;
-    --nav-hover-text-color: #ffc75d;
+    --nav-hover-bkgd-color: #d3734d;
+    --nav-hover-text-color: #3f0804;
 }
 
 nav {
