@@ -9,11 +9,11 @@
 body {
     display: grid;
     grid-template-areas:
-        'header header'
-        'gif gif'
-        'text text'
-        'c1 c2'
-        're re'
+        'b1 header header b2'
+        'b1 gif gif b2'
+        'b1 text text b2'
+        'b1 c1 c2 b2'
+        'b1 return return b2'
 }
 
 h1,
@@ -99,9 +99,17 @@ header {
 }
 
 .return {
-    grid-area: re;
+    grid-area: return;
     margin-top: 20px;
     width: 100%;
+}
+
+.border1 {
+    grid-area: b1;
+}
+
+.border2 {
+    grid-area: b2;
 }
 
 @media (max-width:915px) {
