@@ -9,11 +9,11 @@
 body {
     display: grid;
     grid-template-areas:
-        'b1 header header b2'
-        'b1 gif gif b2'
-        'b1 text text b2'
-        'b1 c1 c2 b2'
-        'b1 return return b2'
+        'header header'
+        'gif gif'
+        'text text'
+        'c1 c2'
+        'return return'
 }
 
 h1,
@@ -104,12 +104,9 @@ header {
     width: 100%;
 }
 
-.border1 {
-    grid-area: b1;
-}
-
+.border1,
 .border2 {
-    grid-area: b2;
+    display: none;
 }
 
 @media (max-width:915px) {
@@ -129,9 +126,24 @@ header {
     a {
         width: 100%;
     }
+}
+
+@media (min-width:1440px) {
 
     .border1,
     .border2 {
-        display: none;
+        position: fixed;
+        width: 300px;
+        top: 0;
+        display: block;
+        height: 100%;
+    }
+
+    .border1 {
+        right: 0;
+    }
+
+    .border2 {
+        left: 0;
     }
 }
