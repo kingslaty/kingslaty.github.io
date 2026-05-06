@@ -60,7 +60,7 @@ a {
     background-color: #59b19a;
     text-decoration: none;
     cursor: pointer;
-    width: 400px;
+    width: 100%;
 }
 
 a:hover {
@@ -101,7 +101,6 @@ header {
 .return {
     grid-area: return;
     margin-top: 20px;
-    width: 100%;
 }
 
 .border1,
