@@ -134,6 +134,18 @@ header {
     a {
         width: 100%;
     }
+
+    body {
+    display: grid;
+    grid-template-areas:
+        'header'
+        'gif'
+        'text'
+        'c1'
+        'c2'
+        'return'
+        'copy'
+}
 }
 
 @media (min-width:1440px) {
