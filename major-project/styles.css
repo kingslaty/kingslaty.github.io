@@ -54,10 +54,6 @@ a {
     border: #165b49 solid 5px;
 }
 
-.text {
-    background-color: #b19482;
-}
-
 a {
     background-color: #6dc5ad;
     text-decoration: none;
@@ -90,6 +86,13 @@ header {
 
 .text {
     grid-area: text;
+    background-color: #b19482;
+
+}
+
+.choice1,
+.choice2 {
+    width: 400px;
 }
 
 .choice1 {
